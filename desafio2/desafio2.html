@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>desafio 2</title>
+</head>
+<body>
+<script>
+    let nome = prompt ('Qual é o seu nome?');
+    let idade = prompt ('Qual é a sua idade?');
+    let linguagem = prompt ('Qual é a linguagem que você está estudando?')
+    let cidade = prompt ('De qual cidade você está estudando?');
+
+    document.write ("Olá " + nome + ", você tem " + idade + " anos, e está estudando " + linguagem + " em " + cidade + ". <br>");
+
+    let novaLinguagem = prompt("Você está disposto(a) a estudar PHP? Digite " + 1 + " para SIM ou " +  2 + " para NÃO");
+
+    if (novaLinguagem == 1){
+        document.write("Que legal! Vamos juntos nesta caminhada!");
+    } else {
+        document.write("Que pena! Espero que tenha interesse em outra linguagens");
+    }
+    
+</script>
+</body>
+</html>
